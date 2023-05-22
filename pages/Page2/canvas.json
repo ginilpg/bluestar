@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 480,
+          "bottomRow": 510,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -480,7 +480,7 @@
             {
               "boxShadow": "none",
               "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
-              "topRow": 41,
+              "topRow": 44,
               "defaultCurrencyCode": "USD",
               "labelWidth": 5,
               "type": "CURRENCY_INPUT_WIDGET",
@@ -513,7 +513,7 @@
                 "amount",
                 "total"
               ],
-              "bottomRow": 48,
+              "bottomRow": 51,
               "parentRowSpace": 10,
               "autoFocus": false,
               "hideCard": false,
@@ -538,6 +538,51 @@
               "iconAlign": "left",
               "defaultText": "",
               "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "mobileBottomRow": 44,
+              "widgetName": "AudioRecorder1",
+              "displayName": "Audio Recorder",
+              "iconSVG": "/static/media/icon.3cb03cd8ed8464c5725a5d89a8fa563f.svg",
+              "searchTags": [
+                "sound recorder",
+                "voice recorder"
+              ],
+              "topRow": 37,
+              "bottomRow": 44,
+              "parentRowSpace": 10,
+              "type": "AUDIO_RECORDER_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 14,
+              "animateLoading": true,
+              "parentColumnSpace": 12.53125,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "3z6nn8xdax",
+              "isDeprecated": false,
+              "rightColumn": 14,
+              "widgetId": "729wmx4gy8",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 37,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 0,
+              "iconColor": "white"
             }
           ]
         },
