@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 600,
+          "bottomRow": 410,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -179,8 +179,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 21,
-              "bottomRow": 60,
+              "topRow": 2,
+              "bottomRow": 41,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -188,7 +188,7 @@
               "mobileRightColumn": 57,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
-              "leftColumn": 33,
+              "leftColumn": 35,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -232,6 +232,7 @@
                       "animateLoading": true,
                       "overflow": "NONE",
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "dynamicTriggerPathList": [],
                       "leftColumn": 1.5,
                       "dynamicBindingPathList": [
                         {
@@ -246,7 +247,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Form",
+                      "text": "testing",
                       "key": "kb7c1z6xxb",
                       "isDeprecated": false,
                       "rightColumn": 25.5,
@@ -391,7 +392,7 @@
               "key": "9znf7sj9b2",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 57,
+              "rightColumn": 59,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "5yj7f0t7jm",
               "minWidth": 450,
@@ -401,11 +402,11 @@
               "isLoading": false,
               "mobileTopRow": 21,
               "responsiveBehavior": "fill",
-              "originalTopRow": 21,
+              "originalTopRow": 2,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 33,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 61,
+              "originalBottomRow": 41,
               "minDynamicHeight": 10
             }
           ]
