@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 510,
+          "bottomRow": 630,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -180,7 +180,7 @@
                 "group"
               ],
               "topRow": 2,
-              "bottomRow": 48,
+              "bottomRow": 45,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -203,7 +203,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 460,
+                  "bottomRow": 430,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -331,8 +331,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 40,
-                      "bottomRow": 44,
+                      "topRow": 37,
+                      "bottomRow": 41,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "mobileRightColumn": 46,
@@ -377,7 +377,7 @@
                       "iconSVG": "/static/media/icon.ecb3847950c4515966ef642a32758afb.svg",
                       "labelText": "Label",
                       "topRow": 10,
-                      "bottomRow": 23,
+                      "bottomRow": 20,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "type": "CHECKBOX_GROUP_WIDGET",
@@ -445,8 +445,8 @@
                       "searchTags": [
                         "range"
                       ],
-                      "topRow": 27,
-                      "bottomRow": 35,
+                      "topRow": 24,
+                      "bottomRow": 32,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "type": "CATEGORY_SLIDER_WIDGET",
@@ -502,7 +502,9 @@
                       "isLoading": false,
                       "mobileTopRow": 27,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 27,
                       "mobileLeftColumn": 7,
+                      "originalBottomRow": 35,
                       "showMarksLabel": true
                     }
                   ],
@@ -543,7 +545,7 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 33,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 48,
+              "originalBottomRow": 45,
               "minDynamicHeight": 10
             },
             {
@@ -652,6 +654,57 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 0,
               "iconColor": "white"
+            },
+            {
+              "mobileBottomRow": 63,
+              "widgetName": "Checkbox1",
+              "displayName": "Checkbox",
+              "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+              "searchTags": [
+                "boolean"
+              ],
+              "topRow": 59,
+              "bottomRow": 63,
+              "parentRowSpace": 10,
+              "type": "CHECKBOX_WIDGET",
+              "alignWidget": "LEFT",
+              "hideCard": false,
+              "mobileRightColumn": 16,
+              "animateLoading": true,
+              "parentColumnSpace": 20.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "isDisabled": false,
+              "key": "zxqqnuk11j",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 16,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "6phae45q6i",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "label": "Existing in main user",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 59,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 4,
+              "defaultCheckedState": true,
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
