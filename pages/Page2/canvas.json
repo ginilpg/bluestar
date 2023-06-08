@@ -367,7 +367,6 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "mobileLeftColumn": 30,
                       "originalBottomRow": 44,
-
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -434,7 +433,6 @@
                       "mobileLeftColumn": 9,
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 23,
-
                       "isInline": true,
                       "minDynamicHeight": 4
                     },
@@ -566,7 +564,6 @@
               "animateLoading": true,
               "parentColumnSpace": 4.3984375,
               "leftColumn": 1,
-
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -615,7 +612,6 @@
               "maxDynamicHeight": 9000,
               "originalBottomRow": 53,
               "isInline": true,
-
               "minDynamicHeight": 4
             }
           ]
