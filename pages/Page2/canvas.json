@@ -362,11 +362,12 @@
                       "isLoading": false,
                       "mobileTopRow": 33,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 37,
+                      "originalTopRow": 40,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "mobileLeftColumn": 30,
-                      "originalBottomRow": 41,
+                      "originalBottomRow": 44,
+
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -432,7 +433,8 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "mobileLeftColumn": 9,
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 20,
+                      "originalBottomRow": 23,
+
                       "isInline": true,
                       "minDynamicHeight": 4
                     },
@@ -545,19 +547,26 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 33,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 45,
+              "originalBottomRow": 48,
               "minDynamicHeight": 10
             },
             {
-              "boxShadow": "none",
-              "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
-              "topRow": 44,
-              "defaultCurrencyCode": "USD",
+              "mobileBottomRow": 16,
+              "widgetName": "CheckboxGroup1Copy",
+              "displayName": "Checkbox Group",
+              "iconSVG": "/static/media/icon.ecb3847950c4515966ef642a32758afb.svg",
+              "labelText": "Label",
+              "topRow": 40,
+              "bottomRow": 47,
+              "parentRowSpace": 10,
               "labelWidth": 5,
-              "type": "CURRENCY_INPUT_WIDGET",
+              "type": "CHECKBOX_GROUP_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 32,
               "animateLoading": true,
-              "resetOnSubmit": true,
-              "leftColumn": 0,
+              "parentColumnSpace": 4.3984375,
+              "leftColumn": 1,
+
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -566,195 +575,47 @@
                   "key": "borderRadius"
                 }
               ],
-              "labelStyle": "",
-              "isDisabled": false,
-              "isRequired": false,
-              "dynamicHeight": "FIXED",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "showStepArrows": false,
-              "isVisible": true,
-              "allowCurrencyChange": false,
-              "version": 1,
-              "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "mobileBottomRow": 48,
-              "widgetName": "CurrencyInput1",
-              "displayName": "Currency Input",
-              "searchTags": [
-                "amount",
-                "total"
-              ],
-              "bottomRow": 51,
-              "parentRowSpace": 10,
-              "autoFocus": false,
-              "hideCard": false,
-              "mobileRightColumn": 13,
-              "parentColumnSpace": 12.53125,
               "labelPosition": "Top",
-              "key": "4kd8bo38f5",
+              "options": [
+                {
+                  "label": "Blue",
+                  "value": "BLUE"
+                },
+                {
+                  "label": "Green",
+                  "value": "GREEN"
+                },
+                {
+                  "label": "Red",
+                  "value": "RED"
+                }
+              ],
+              "isDisabled": false,
+              "key": "5b4awc7zpd",
               "labelTextSize": "0.875rem",
+              "isRequired": false,
               "isDeprecated": false,
-              "rightColumn": 13,
-              "widgetId": "xymmjbyypb",
-              "minWidth": 450,
-              "label": "Label",
+              "rightColumn": 24,
+              "defaultSelectedValues": [
+                "BLUE"
+              ],
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "ya8ljvn68e",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 2,
               "parentId": "0",
               "labelAlignment": "left",
               "renderMode": "CANVAS",
-              "mobileTopRow": 41,
-              "responsiveBehavior": "fill",
-              "mobileLeftColumn": 0,
-              "maxDynamicHeight": 9000,
-              "decimals": 0,
-              "iconAlign": "left",
-              "defaultText": "",
-              "minDynamicHeight": 4
-            },
-            {
-              "boxShadow": "none",
-              "mobileBottomRow": 44,
-              "widgetName": "AudioRecorder1",
-              "displayName": "Audio Recorder",
-              "iconSVG": "/static/media/icon.3cb03cd8ed8464c5725a5d89a8fa563f.svg",
-              "searchTags": [
-                "sound recorder",
-                "voice recorder"
-              ],
-              "topRow": 37,
-              "bottomRow": 44,
-              "parentRowSpace": 10,
-              "type": "AUDIO_RECORDER_WIDGET",
-              "hideCard": false,
-              "mobileRightColumn": 14,
-              "animateLoading": true,
-              "parentColumnSpace": 12.53125,
-              "leftColumn": 0,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "isDisabled": false,
-              "key": "3z6nn8xdax",
-              "isDeprecated": false,
-              "rightColumn": 14,
-              "widgetId": "729wmx4gy8",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "minWidth": 450,
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
               "isLoading": false,
-              "mobileTopRow": 37,
-              "responsiveBehavior": "fill",
+              "mobileTopRow": 10,
+              "originalTopRow": 40,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "mobileLeftColumn": 0,
-              "iconColor": "white"
-            },
-            {
-              "mobileBottomRow": 63,
-              "widgetName": "Checkbox1",
-              "displayName": "Checkbox",
-              "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
-              "searchTags": [
-                "boolean"
-              ],
-              "topRow": 59,
-              "bottomRow": 63,
-              "parentRowSpace": 10,
-              "type": "CHECKBOX_WIDGET",
-              "alignWidget": "LEFT",
-              "hideCard": false,
-              "mobileRightColumn": 16,
-              "animateLoading": true,
-              "parentColumnSpace": 20.0625,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 4,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "labelPosition": "Left",
-              "isDisabled": false,
-              "key": "zxqqnuk11j",
-              "isRequired": false,
-              "isDeprecated": false,
-              "rightColumn": 16,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "6phae45q6i",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "minWidth": 450,
-              "isVisible": true,
-              "label": "Existing in main user",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "mobileTopRow": 59,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "mobileLeftColumn": 4,
-              "defaultCheckedState": true,
+              "mobileLeftColumn": 9,
               "maxDynamicHeight": 9000,
-              "minDynamicHeight": 4
-            },
-            {
-              "mobileBottomRow": 63,
-              "widgetName": "Checkbox1Copy",
-              "displayName": "Checkbox",
-              "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
-              "searchTags": [
-                "boolean"
-              ],
-              "topRow": 64,
-              "bottomRow": 68,
-              "parentRowSpace": 10,
-              "type": "CHECKBOX_WIDGET",
-              "alignWidget": "LEFT",
-              "hideCard": false,
-              "mobileRightColumn": 16,
-              "animateLoading": true,
-              "parentColumnSpace": 20.0625,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 4,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "labelPosition": "Left",
-              "isDisabled": false,
-              "key": "zxqqnuk11j",
-              "isRequired": false,
-              "isDeprecated": false,
-              "rightColumn": 16,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "610vs2hxq8",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "minWidth": 450,
-              "isVisible": true,
-              "label": "Existing in main user",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "mobileTopRow": 59,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "mobileLeftColumn": 4,
-              "defaultCheckedState": true,
-              "maxDynamicHeight": 9000,
+              "originalBottomRow": 53,
+              "isInline": true,
+
               "minDynamicHeight": 4
             }
           ]
