@@ -45,7 +45,7 @@
               "mode": "CAMERA",
               "mobileRightColumn": 31,
               "parentColumnSpace": 12.5625,
-              "leftColumn": 6,
+              "leftColumn": 30,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -55,7 +55,7 @@
               "key": "cr6pw7o1av",
               "isMirrored": true,
               "isDeprecated": false,
-              "rightColumn": 31,
+              "rightColumn": 55,
               "widgetId": "hpa747eer1",
               "isVisible": true,
               "version": 1,
@@ -135,6 +135,7 @@
               "responsiveBehavior": "fill",
               "mobileLeftColumn": 0,
               "showMarksLabel": true
+
             }
           ]
         },

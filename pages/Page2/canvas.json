@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 480,
+          "bottomRow": 680,
           "containerStyle": "none",
           "snapRows": 56,
           "parentRowSpace": 1,
@@ -180,7 +180,7 @@
                 "group"
               ],
               "topRow": 2,
-              "bottomRow": 48,
+              "bottomRow": 45,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -203,7 +203,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 460,
+                  "bottomRow": 430,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -288,7 +288,7 @@
                       "hideCard": false,
                       "mobileRightColumn": 62,
                       "animateLoading": true,
-                      "leftColumn": 46,
+                      "leftColumn": 47,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -301,7 +301,7 @@
                       "isDisabled": false,
                       "key": "kcf40i17xf",
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 63,
                       "isDefaultClickDisabled": true,
                       "widgetId": "zjw3422kh5",
                       "minWidth": 120,
@@ -331,8 +331,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 40,
-                      "bottomRow": 44,
+                      "topRow": 37,
+                      "bottomRow": 41,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "mobileRightColumn": 46,
@@ -367,6 +367,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "mobileLeftColumn": 30,
                       "originalBottomRow": 44,
+
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -377,7 +378,7 @@
                       "iconSVG": "/static/media/icon.ecb3847950c4515966ef642a32758afb.svg",
                       "labelText": "Label",
                       "topRow": 10,
-                      "bottomRow": 23,
+                      "bottomRow": 20,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "type": "CHECKBOX_GROUP_WIDGET",
@@ -433,8 +434,80 @@
                       "mobileLeftColumn": 9,
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 23,
+
                       "isInline": true,
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "mobileBottomRow": 35,
+                      "widgetName": "CategorySlider2",
+                      "displayName": "Category Slider",
+                      "iconSVG": "/static/media/icon.cbd0db7a0bd317a6e4cbbd72417f8dee.svg",
+                      "labelText": "Size",
+                      "searchTags": [
+                        "range"
+                      ],
+                      "topRow": 24,
+                      "bottomRow": 32,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "CATEGORY_SLIDER_WIDGET",
+                      "hideCard": false,
+                      "mobileRightColumn": 47,
+                      "defaultOptionValue": "md",
+                      "animateLoading": true,
+                      "parentColumnSpace": 4.38671875,
+                      "leftColumn": 7,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "labelPosition": "Top",
+                      "options": [
+                        {
+                          "label": "xs",
+                          "value": "xs"
+                        },
+                        {
+                          "label": "sm",
+                          "value": "sm"
+                        },
+                        {
+                          "label": "md",
+                          "value": "md"
+                        },
+                        {
+                          "label": "lg",
+                          "value": "lg"
+                        },
+                        {
+                          "label": "xl",
+                          "value": "xl"
+                        }
+                      ],
+                      "isDisabled": false,
+                      "key": "ynewwg5n7t",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 47,
+                      "widgetId": "kjwffw1obo",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "sliderSize": "m",
+                      "shouldScroll": false,
+                      "version": 1,
+                      "parentId": "6sd43q9v49",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "mobileTopRow": 27,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 24,
+                      "mobileLeftColumn": 7,
+                      "originalBottomRow": 32,
+                      "showMarksLabel": true
                     }
                   ],
                   "key": "1awrmpfqf3",
@@ -493,6 +566,7 @@
               "animateLoading": true,
               "parentColumnSpace": 4.3984375,
               "leftColumn": 1,
+
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -541,6 +615,7 @@
               "maxDynamicHeight": 9000,
               "originalBottomRow": 53,
               "isInline": true,
+
               "minDynamicHeight": 4
             }
           ]
